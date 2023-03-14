@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:8-apache
 
 RUN apt-get -y update && apt-get upgrade -y
 
