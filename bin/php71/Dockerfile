@@ -1,4 +1,4 @@
-FROM php:7.4.21-apache
+FROM php:8-apache
 
 RUN apt-get -y update --fix-missing
 RUN apt-get upgrade -y
